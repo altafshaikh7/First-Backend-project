@@ -2,14 +2,18 @@
   "name": "first-backend-project",
   "version": "1.0.0",
   "description": "a first backend project ",
+  "types": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javaScript",
     "backend"
   ],
   "author": "Altaf Shaikh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
